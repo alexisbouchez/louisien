@@ -1,0 +1,11 @@
+fonction ajouterTVA(prixHT) {
+  retourner (prixHT * 120) / 100;
+}
+prixDeMaCarotte = ajouterTVA(1);
+afficher(prixDeMaCarotte);
+
+fonction estPair(nombre) {
+  retourner nombre % 2 == 0;
+}
+afficher(estPair(2));
+afficher(estPair(3));
